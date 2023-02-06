@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
 
         gameObject.transform.Translate(gameObject.transform.forward * Time.deltaTime * moveSpeed * vAxis, Space.World);
 
-        gameObject.transform.Rotate(0, rotateSpeed * Time.deltaTime * hAxis, 0);
+        //gameObject.transform.Rotate(0, rotateSpeed * Time.deltaTime * hAxis, 0);
 
     }
 
