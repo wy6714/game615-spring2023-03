@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571336, b: 0.3069219, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -242,14 +242,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800156360}
-  m_LocalRotation: {x: -0, y: -0.28067112, z: -0, w: -0.959804}
-  m_LocalPosition: {x: 2.53, y: -1.06, z: 0.61}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalRotation: {x: -0, y: -0.40212625, z: -0, w: -0.91558427}
+  m_LocalPosition: {x: 1.04, y: -2.24, z: 1.11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1089187366}
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: -327.399, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -312.578, z: 0}
 --- !u!54 &800156362
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -276,10 +276,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 1.3412839
-  m_Height: 6.7309694
+  m_Radius: 0.8575121
+  m_Height: 2.96475
   m_Direction: 1
-  m_Center: {x: -0.25142947, y: -0.9479289, z: -0.021757126}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &800156364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -467,31 +467,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0409e44d170c1452297a148a75f87c46, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0409e44d170c1452297a148a75f87c46, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0409e44d170c1452297a148a75f87c46, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0409e44d170c1452297a148a75f87c46, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.21
+      value: -0.18014681
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0409e44d170c1452297a148a75f87c46, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.8511868
+      value: 1.9300001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0409e44d170c1452297a148a75f87c46, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.43
+      value: 0.91244024
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0409e44d170c1452297a148a75f87c46, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.16334064
+      value: 0.034724146
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0409e44d170c1452297a148a75f87c46, type: 3}
       propertyPath: m_LocalRotation.x
@@ -499,7 +499,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0409e44d170c1452297a148a75f87c46, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.98656976
+      value: -0.999397
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0409e44d170c1452297a148a75f87c46, type: 3}
       propertyPath: m_LocalRotation.z
@@ -617,13 +617,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1542773281}
-  m_LocalRotation: {x: -0, y: 0.17239524, z: -0, w: 0.9850279}
+  m_LocalRotation: {x: 0.0024532992, y: 0.19423155, z: 0.00048394696, w: 0.98095256}
   m_LocalPosition: {x: 0, y: -3, z: 0}
-  m_LocalScale: {x: 2.4365, y: 0.72474, z: 1.7951}
+  m_LocalScale: {x: 2.6136336, y: 0.72474, z: 1.7951}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 19.854, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.265, y: 22.4, z: 0.109}
 --- !u!1001 &1988045268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -653,7 +653,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2a6cc2228b314db38ae32a1a1934fec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.102
+      value: -0.052
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d2a6cc2228b314db38ae32a1a1934fec, type: 3}
       propertyPath: m_LocalPosition.z
@@ -702,9 +702,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1994846382}
-  - component: {fileID: 1994846385}
-  - component: {fileID: 1994846384}
   - component: {fileID: 1994846383}
+  - component: {fileID: 1994846384}
   m_Layer: 0
   m_Name: babyBottle
   m_TagString: Untagged
@@ -720,7 +719,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1994846381}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.31, y: -0.43, z: 0.5}
+  m_LocalPosition: {x: 6.49, y: -0.43, z: 0.36}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children:
   - {fileID: 1298710657}
@@ -737,10 +736,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.036334593
-  m_Height: 0.279247
+  m_Radius: 0.03306061
+  m_Height: 0.21580109
   m_Direction: 1
-  m_Center: {x: 0, y: 0.053141356, z: 0}
+  m_Center: {x: -0.008944671, y: -0.027130317, z: 0.03502698}
 --- !u!54 &1994846384
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -752,23 +751,11 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1994846385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994846381}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e878443383371400e94578ac320e6102, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2034831037
 PrefabInstance:
   m_ObjectHideFlags: 0
