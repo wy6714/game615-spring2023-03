@@ -339,8 +339,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 800156361}
-  - component: {fileID: 800156363}
   - component: {fileID: 800156362}
+  - component: {fileID: 800156363}
+  - component: {fileID: 800156364}
   m_Layer: 0
   m_Name: grandmom
   m_TagString: Untagged
@@ -379,8 +380,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!136 &800156363
-CapsuleCollider:
+--- !u!65 &800156363
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -389,10 +390,21 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.7359914
-  m_Height: 2.6727955
-  m_Direction: 1
-  m_Center: {x: -0.0000000022267295, y: 0.14597714, z: -0.1215207}
+  serializedVersion: 2
+  m_Size: {x: 0.99205756, y: 2.1679218, z: 1.223103}
+  m_Center: {x: 0.31224087, y: 1.7954494, z: 0.946157}
+--- !u!114 &800156364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800156360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e878443383371400e94578ac320e6102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,7 +938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0012164974d774fb7a318d7af7701170, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0012164974d774fb7a318d7af7701170, type: 3}
@@ -957,7 +969,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061416567}
   m_LocalRotation: {x: -0, y: -0.57260233, z: -0, w: 0.81983334}
-  m_LocalPosition: {x: 4.67, y: 3.86, z: 3}
+  m_LocalPosition: {x: 12.3, y: 3.86, z: 0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1114545831}
