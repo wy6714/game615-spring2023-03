@@ -53,7 +53,7 @@ public class PlayerController : MonoBehaviour
                 TimeLeft = 0;
                 TimerText.text = TimeLeft.ToString();
                 TimerOn = false;
-                ScoreText.text = "You lose! Do not how to stop game yet, so just pretend gameover:D";
+                ScoreText.text = "You lose! Don't know how to stop game yet, so just pretend gameover:D";
 
             }
         }
