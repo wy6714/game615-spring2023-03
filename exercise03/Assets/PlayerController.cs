@@ -30,6 +30,11 @@ public class PlayerController : MonoBehaviour
 
         gameObject.transform.Rotate(0, rotateSpeed * Time.deltaTime * hAxis, 0);
 
+        if(score == 6)
+        {
+            ScoreText.text = "You Win!";
+        }
+
     }
 
 
@@ -40,6 +45,7 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
             ScoreText.text = score.ToString();
             score++;
+            
         }
 
         
