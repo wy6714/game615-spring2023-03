@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
 
+    
+    public TextMeshProUGUI ScoreText;
     public int score;
     float moveSpeed = 5f;
     float rotateSpeed = 75f;
@@ -12,7 +15,9 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        score = 1;
+        
+        
     }
 
     // Update is called once per frame
@@ -33,12 +38,12 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("babyBottle"))
         {
             Destroy(other.gameObject);
-            addScore();
-        }
-
-        void addScore()
-        {
+            ScoreText.text = score.ToString();
             score++;
         }
+
+        
     }
+
+    
 }
